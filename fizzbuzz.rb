@@ -4,6 +4,7 @@ def fizzbuzz(int)
   elsif int % 3 == 0 && int % 5 == 0
     "Fizzbuzz"
   else int % 5 == 0
+    "Buzz"
   end
 end
 # Don't forget! This file needs to be 'required' in its spec file
